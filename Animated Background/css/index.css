@@ -1,0 +1,36 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body {
+   background-size: 100% auto;
+   animation: animate 38s
+   infinite linear;
+   color: rgb(132, 251, 221);
+}
+
+section h1 {
+   position: absolute;
+   top: 50%;
+   left: 55%;
+   transform: translate(-50%, -50%);
+   font-size: 4.5rem;
+}
+
+@keyframes animate {
+   0% {
+      background-image: url(img/1.jpg);
+   }
+   25% {
+      background-image: url(img/2.jpg);
+   }
+   50% {
+      background-image: url(img/3.jpg);
+   }
+   75% {
+      background-image: url(img/4.jpg);
+   }
+   100% {
+      background-image: url(img/5.jpg);
+}
